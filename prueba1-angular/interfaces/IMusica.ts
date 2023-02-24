@@ -1,7 +1,8 @@
 export interface IMusica {
-    seccion: string
-    title:string
-    description:string
-    album:string
-    duration:number
+    title: string;
+    genero:string;
+  album: string;
+  duration: number;
+  artist: string;
+  link:string;
 }
